@@ -1,0 +1,3 @@
+Resume Website
+
+I had to complete this resume website to fullfill my requirements to get my Intro to programming Nanodegree. It is a simple one page resume website that includes a google map of the places I have lived, worked and went to school. I hope you enjoy my website! 
