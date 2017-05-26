@@ -183,8 +183,8 @@ projects.display = function() {
 		$(".project-entry:last").append(formattedDescription);
 
 		if (projects.projects[i].images.length > 0) {
-			for (image in projects.projects[i].images) {
-				var formattedImage = HTMLprojectImage.replace("%data%", projects.projects[i].images[image]);
+			for (j = 0; j < projects.projects[i].images.length; j++) {
+				var formattedImage = HTMLprojectImage.replace("%data%", projects.projects[i].images[j]);
 				$(".project-entry:last").append(formattedImage);
 			}
 		}
