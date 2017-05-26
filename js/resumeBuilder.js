@@ -189,7 +189,7 @@ projects.display = function() {
 			}
 		}
 	}
-}
+};
 
 education.display = function() {
 
